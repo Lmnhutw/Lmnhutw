@@ -1,11 +1,6 @@
 <h1 align="center">Hi 👋, I'm Lại Minh Nhựt, but you can call me Vincent</h1>
 <h3 align="center">I am a .NET Developer, just start my coding journey</h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/vincent" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="vincent" height="30" width="40" /></a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 
 <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> 
@@ -70,10 +65,8 @@
 
 </p>
 
-<p>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&theme=onedark&title_color=080808&text_color=000000&bg_color=dedede&locale=en&layout=compact" alt="lmnhutw" />
-</p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&title_color=000000&text_color=000000&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lmnhutw&show_icons=true&theme=onedark&title_color=080808&text_color=00a0f0&bg_color=dedede&locale=en" alt="lmnhutw" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lmnhutw&show_icons=true&title_color=080808&text_color=000000&bg_color=000000&locale=en" alt="lmnhutw" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lmnhutw&theme=highcontrast" alt="lmnhutw" /></p>
