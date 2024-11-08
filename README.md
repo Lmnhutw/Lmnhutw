@@ -3,7 +3,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
+<p><img align="left" height="195" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en" alt="lmnhutw" /></p>
 
