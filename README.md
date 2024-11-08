@@ -65,8 +65,8 @@
 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&title_color=000000&text_color=000000&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lmnhutw&show_icons=true&title_color=080808&text_color=000000&bg_color=000000&locale=en" alt="lmnhutw" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en" alt="lmnhutw" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lmnhutw&theme=highcontrast" alt="lmnhutw" /></p>
