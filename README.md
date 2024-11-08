@@ -2,7 +2,7 @@
 <h3 align="center">I am a .NET Developer, just start my coding journey</h3>
 
 <h3 align="left">Languages and Tools:</h3>
-
+<div width: 100% background-color: gray>
 <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> 
 </a>
@@ -64,6 +64,7 @@
 </a>
 
 </p>
+</div>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=lmnhutw&show_icons=true&theme=highcontrast&title_color=ffffff&text_color=ffffff&bg_color=000000&locale=en&layout=compact" alt="lmnhutw" /></p>
 
