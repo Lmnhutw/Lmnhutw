@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Lại Minh Nhựt, but you can call me Vincent</h1>
+<h1 align="center">Hi 👋, you can call me Vincent</h1>
 <h3 align="center">I am a .NET Developer, just start my coding journey</h3>
 
 <h3 align="left">Languages and Tools:</h3>
