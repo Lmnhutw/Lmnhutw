@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, you can call me Vincent</h1>
-<h3 align="center">I am a .NET Developer, who just started his coding journey</h3>
+<h3 align="center">I am a .NET Developer, and this is my coding journey</h3>
 
 <h3 align="left">Languages and Tools:</h3>
 
