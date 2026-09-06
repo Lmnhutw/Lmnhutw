@@ -1,0 +1,19 @@
+<svg width="1000" height="176" viewBox="0 0 1000 176" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vincent contact and profile links">
+  <style>
+    .bg{fill:#0d1117}.panel{fill:#0f141b;stroke:#30363d;stroke-width:4}
+    .title{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3;letter-spacing:1px}
+    .body{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}
+    .link{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#79c0ff}
+    .accent{font:700 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee787;letter-spacing:1px}
+  </style>
+  <rect width="1000" height="176" class="bg"/>
+  <rect x="128" y="18" width="744" height="112" class="panel"/>
+  <text x="357" y="50" class="title">QUEST JOURNAL SAVED ✓</text>
+  <text x="335" y="77" class="body">Thanks for exploring my developer journey.</text>
+  <text x="423" y="103" class="accent">KEEP BUILDING.</text>
+
+  <a href="https://github.com/Lmnhutw" target="_blank"><text x="100" y="145" class="link">GitHub · Lmnhutw</text></a>
+  <a href="mailto:lmnhut0211@gmail.com"><text x="310" y="145" class="link">Email · lmnhut0211@gmail.com</text></a>
+  <a href="https://www.linkedin.com/in/minhnhut0211/" target="_blank"><text x="620" y="145" class="link">LinkedIn · minhnhut0211</text></a>
+  <a href="https://animio.io.vn/" target="_blank"><text x="385" y="165" class="link">Project · animio.io.vn</text></a>
+</svg>

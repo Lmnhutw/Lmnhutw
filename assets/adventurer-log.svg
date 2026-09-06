@@ -1,0 +1,19 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .panel{fill:#0d1117;stroke:#30363d;stroke-width:4}.title{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee787}.value{font:700 28px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3}.label{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;letter-spacing:1px}.body{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b1bac4}.accent{fill:#7ee787}.dim{fill:#21262d}
+  </style>
+  <rect x="2" y="2" width="996" height="276" class="panel"/>
+  <text x="30" y="42" class="title">▥ ADVENTURER LOG</text><text x="820" y="42" class="label">GITHUB ACTIVITY</text>
+  <line x1="28" y1="58" x2="972" y2="58" stroke="#30363d" stroke-width="2"/>
+
+  <text id="repos" x="42" y="106" class="value">8</text><text x="42" y="128" class="label">PUBLIC REPOS</text>
+  <text id="followers" x="230" y="106" class="value">0</text><text x="230" y="128" class="label">FOLLOWERS</text>
+  <text id="updated" x="420" y="106" class="value">LIVE</text><text x="420" y="128" class="label">PROFILE DATA</text>
+
+  <text x="42" y="170" class="label">ACTIVITY SIGNAL</text>
+  <g transform="translate(42,190)">
+    <rect x="0" y="0" width="22" height="22" class="dim"/><rect x="28" y="0" width="22" height="22" class="dim"/><rect x="56" y="0" width="22" height="22" class="accent" opacity=".25"/><rect x="84" y="0" width="22" height="22" class="accent" opacity=".45"/><rect x="112" y="0" width="22" height="22" class="accent" opacity=".7"/><rect x="140" y="0" width="22" height="22" class="accent"/><rect x="168" y="0" width="22" height="22" class="accent" opacity=".5"/><rect x="196" y="0" width="22" height="22" class="dim"/><rect x="224" y="0" width="22" height="22" class="accent" opacity=".4"/><rect x="252" y="0" width="22" height="22" class="accent" opacity=".8"/><rect x="280" y="0" width="22" height="22" class="accent"/><rect x="308" y="0" width="22" height="22" class="accent" opacity=".6"/><rect x="336" y="0" width="22" height="22" class="dim"/><rect x="364" y="0" width="22" height="22" class="accent" opacity=".35"/><rect x="392" y="0" width="22" height="22" class="accent" opacity=".8"/><rect x="420" y="0" width="22" height="22" class="accent"/>
+  </g>
+  <text id="last-update" x="650" y="198" class="body">Updated automatically by GitHub Actions</text>
+  <text x="650" y="224" class="body">Public profile metrics only</text>
+</svg>
