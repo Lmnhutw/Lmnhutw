@@ -47,7 +47,8 @@ function svg(title, description, width, height, body, accent = colors.border, fr
 }
 
 function image(file, x, y, width, height, attributes = '') {
-  const data = fs.readFileSync(path.join(__dirname, '..', 'assets', file)).toString('base64');
+  const bytes = fs.readFileSync(path.join(__dirname, '..', 'assets', file));
+  const data = (file.endsWith('.svg') ? Buffer.from(bytes.toString('utf8').replace(/\r\n/g, '\n')) : bytes).toString('base64');
   const type = file.endsWith('.svg') ? 'image/svg+xml' : file.endsWith('.gif') ? 'image/gif' : 'image/png';
   return `<image x="${x}" y="${y}" width="${width}" height="${height}" href="data:${type};base64,${data}" ${attributes}/>`;
 }

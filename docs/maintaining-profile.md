@@ -5,11 +5,13 @@ The profile is generated Markdown/HTML plus self-contained SVG images. It has no
 ## Update
 
 1. Edit URLs in `profile-links.json`. Known original URLs are retained; Portfolio is deliberately `null` until supplied. Null contact/project entries do not become fake links.
-2. Run `npm run build` to rebuild the static SVG sections and README.
-3. Run `npm run generate` to refresh public GitHub metrics and the contribution calendar.
+2. Run `npm run generate` to refresh public GitHub metrics and the contribution calendar.
+3. Run `npm run build` to rebuild the static SVG sections and README image versions.
 4. Run `npm test` and `git diff --check`.
 
 Generated SVGs and README should be changed through the scripts. The daily GitHub workflow runs the data tests before updating both activity images and their contribution cache.
+
+Image URLs point directly to raw.githubusercontent.com and include a content hash. Rebuilding README after an image changes gives GitHub a new cache key, preventing old and new dashboard sections from appearing together. Line endings are normalized when hashing so Windows and Linux produce the same versions.
 
 ## Artwork and icons
 

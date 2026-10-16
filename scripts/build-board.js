@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const { createHash } = require('node:crypto');
 const { colors: c, escape, text: t, svg, image, line, slot, pixelName, projectIcon } = require('./svg');
 const root = path.join(__dirname, '..');
 const links = require('../profile-links.json');
@@ -189,7 +190,12 @@ function build() {
   const anchor = (url, label) => url ? `<a href="${escape(url)}">${escape(label)}</a>` : escape(label);
   const contactLinks = ['github', 'email', 'linkedin', 'portfolio', 'animio']
     .filter(key => links.contact[key]).map(key => anchor(links.contact[key], { github: 'GitHub', email: 'Email', linkedin: 'LinkedIn', portfolio: 'Portfolio', animio: 'Animio' }[key])).join(' · ');
-  const picture = (name, alt, width = '100%') => `<picture><source media="(max-width: 600px)" srcset="./assets/${name}-mobile.svg"><img src="./assets/${name}.svg" width="${width}" alt="${escape(alt)}"></picture>`;
+  const assetUrl = name => {
+    const content = fs.readFileSync(path.join(root, 'assets', name + '.svg'), 'utf8').replace(/\r\n/g, '\n');
+    const version = createHash('sha256').update(content).digest('hex').slice(0, 16);
+    return `https://raw.githubusercontent.com/Lmnhutw/Lmnhutw/main/assets/${name}.svg?v=${version}`;
+  };
+  const picture = (name, alt, width = '100%') => `<picture><source media="(max-width: 600px)" srcset="${assetUrl(name + '-mobile')}"><img src="${assetUrl(name)}" width="${width}" alt="${escape(alt)}"></picture>`;
   const projectLinks = projects.map(p => anchor(links.projects[p.key], p.name)).join(' · ');
   const readme = `<p>${picture('system-header', 'System Board / V2.1. Pixel RPG developer profile.')}</p>
 <p>${picture('hero', 'Vincent, software developer in Ho Chi Minh City. Building web products, AI systems and tools that people enjoy using. Currently Building.')}</p>
