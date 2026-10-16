@@ -1,25 +1,23 @@
-<svg width="490" height="430" viewBox="0 0 490 430" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="515" viewBox="0 0 1000 515" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quest Log — Public Projects</title>
+  <desc id="desc">OSAI: AI-focused software project. ChatApp: realtime chat, frontend and backend. SkiiShop: full-stack shop application. Individual repository links are below this image.</desc>
   <style>
-    .panel{fill:#0d1117;stroke:#30363d;stroke-width:4}.title{font:700 17px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#d2a8ff}.name{font:700 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3}.desc{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}.active{font:700 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee787}.public{font:700 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#79c0ff}.link{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee787}
+    .panel{fill:#151e2a;stroke:#364558;stroke-width:1.5}
+    .title{font:600 32px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#cbb5ff}
+    .meta{font:28px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b4c3d6}
+    .name{font:600 44px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f0f5fc}
+    .body{font:42px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#b4c3d6}
   </style>
-  <rect x="2" y="2" width="486" height="426" class="panel"/>
-  <text x="26" y="38" class="title">◇ QUEST LOG</text><text x="374" y="38" class="desc">PUBLIC WORK</text>
-  <line x1="22" y1="54" x2="468" y2="54" stroke="#30363d" stroke-width="2"/>
-
-  <a href="https://github.com/Lmnhutw/visual-novel-gen"><text x="28" y="92" class="name">◆ Narrative Studio</text></a><text x="360" y="92" class="active">[ ACTIVE ]</text>
-  <text x="44" y="114" class="desc">AI visual-novel planning &amp; generation workspace</text>
-  <line x1="28" y1="132" x2="460" y2="132" stroke="#21262d"/>
-
-  <a href="https://github.com/Lmnhutw/OSAI"><text x="28" y="168" class="name">◇ OSAI</text></a><text x="376" y="168" class="public">[ PUBLIC ]</text>
-  <text x="44" y="190" class="desc">AI-focused software project</text>
-  <line x1="28" y1="208" x2="460" y2="208" stroke="#21262d"/>
-
-  <a href="https://github.com/Lmnhutw/ChatApp_FE"><text x="28" y="244" class="name">◇ ChatApp</text></a><text x="376" y="244" class="public">[ PUBLIC ]</text>
-  <text x="44" y="266" class="desc">Frontend + backend realtime chat project</text>
-  <line x1="28" y1="284" x2="460" y2="284" stroke="#21262d"/>
-
-  <a href="https://github.com/Lmnhutw/SkiiShop"><text x="28" y="320" class="name">◇ SkiiShop</text></a><text x="376" y="320" class="public">[ PUBLIC ]</text>
-  <text x="44" y="342" class="desc">Full-stack shop application</text>
-
-  <a href="https://github.com/Lmnhutw?tab=repositories" target="_blank"><text x="290" y="398" class="link">VIEW ALL REPOSITORIES →</text></a>
+  <rect x="1" y="1" width="998" height="513" rx="10" class="panel"/>
+  <text x="34" y="55" class="title">QUEST LOG</text>
+  <text x="966" y="55" text-anchor="end" class="meta">PUBLIC PROJECTS</text>
+  <path d="M36 123l8-8 8 8-8 8z M36 262l8-8 8 8-8 8z M36 401l8-8 8 8-8 8z" fill="none" stroke="#7ee7b3" stroke-width="2"/>
+  <text x="74" y="139" class="name">OSAI</text>
+  <text x="74" y="198" class="body">AI-focused software project</text>
+  <line x1="74" y1="226" x2="966" y2="226" stroke="#2b394b"/>
+  <text x="74" y="278" class="name">ChatApp</text>
+  <text x="74" y="337" class="body">Realtime chat · frontend &amp; backend</text>
+  <line x1="74" y1="365" x2="966" y2="365" stroke="#2b394b"/>
+  <text x="74" y="417" class="name">SkiiShop</text>
+  <text x="74" y="476" class="body">Full-stack shop application</text>
 </svg>

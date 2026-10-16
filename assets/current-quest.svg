@@ -1,29 +1,22 @@
-<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="450" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Main Quest — Narrative Studio</title>
+  <desc id="desc">In progress. An AI workspace for visual-novel creation, memory and story continuity. Next.js, TypeScript and AI. Open the linked image or the repository link below.</desc>
   <style>
-    .panel{fill:#0d1117;stroke:#3d2d55;stroke-width:4}.title{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#d2a8ff;letter-spacing:1px}
-    .name{font:700 26px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3}.body{font:15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b1bac4}
-    .chip{fill:#161b22;stroke:#30363d;stroke-width:2}.chiptext{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}
-    .status{font:700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee787}.muted{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}
+    .panel{fill:#191e30;stroke:#ac8fe5;stroke-width:1.5}
+    .label{font:600 32px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#cbb5ff}
+    .state{font:600 30px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee7b3}
+    .name{font:700 66px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f0f5fc}
+    .body{font:42px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#c5d1e2}
+    .stack{font:32px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b4c3d6}
+    .action{font:600 34px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee7b3}
   </style>
-  <rect x="2" y="2" width="996" height="296" class="panel"/>
-  <text x="34" y="45" class="title">◆ CURRENT QUEST</text>
-  <text x="790" y="45" class="status">[ IN DEVELOPMENT ]</text>
-  <line x1="30" y1="62" x2="970" y2="62" stroke="#30363d" stroke-width="2"/>
-
-  <text x="42" y="106" class="name">Narrative Studio</text>
-  <text x="42" y="140" class="body">A Next.js workspace for visual-novel planning, retrieval,</text>
-  <text x="42" y="165" class="body">AI generation, memory and continuity checks.</text>
-
-  <rect x="42" y="193" width="94" height="30" rx="2" class="chip"/><text x="58" y="213" class="chiptext">TypeScript</text>
-  <rect x="148" y="193" width="70" height="30" rx="2" class="chip"/><text x="161" y="213" class="chiptext">Next.js</text>
-  <rect x="230" y="193" width="82" height="30" rx="2" class="chip"/><text x="244" y="213" class="chiptext">Supabase</text>
-  <rect x="324" y="193" width="68" height="30" rx="2" class="chip"/><text x="340" y="213" class="chiptext">Prisma</text>
-  <rect x="404" y="193" width="88" height="30" rx="2" class="chip"/><text x="417" y="213" class="chiptext">OpenRouter</text>
-
-  <text x="42" y="257" class="muted">Focus: story canon · semantic memory · generation jobs · continuity</text>
-
-  <a href="https://github.com/Lmnhutw/visual-novel-gen" target="_blank">
-    <rect x="772" y="215" width="178" height="46" fill="#0f141b" stroke="#7ee787" stroke-width="2"/>
-    <text x="800" y="244" class="status">VIEW QUEST →</text>
-  </a>
+  <rect x="1" y="1" width="998" height="448" rx="10" class="panel"/>
+  <path d="M34 45l8-8 8 8-8 8z" fill="#cbb5ff"/>
+  <text x="66" y="55" class="label">MAIN QUEST</text>
+  <text x="966" y="55" text-anchor="end" class="state">IN PROGRESS</text>
+  <text x="34" y="148" class="name">Narrative Studio</text>
+  <text x="34" y="221" class="body">An AI workspace for visual-novel creation,</text>
+  <text x="34" y="281" class="body">memory and story continuity.</text>
+  <text x="34" y="348" class="stack">NEXT.JS / TYPESCRIPT / AI</text>
+  <text x="34" y="411" class="action">VIEW REPOSITORY ↗</text>
 </svg>

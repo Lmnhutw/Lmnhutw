@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Test profile generator
+        run: npm test
+
       - name: Generate profile metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
