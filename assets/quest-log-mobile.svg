@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="920" viewBox="0 0 340 920" role="img" aria-labelledby="title desc">
+  <title id="title">Quest Log — Five Projects</title><desc id="desc">Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Individual links follow below the panels.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#E6EDF7;font-size:15px}
+    .title{font-size:20px;font-weight:700;fill:#A970FF}
+    .heading{font-size:28px;font-weight:700}
+    .body{font-size:16px}
+    .secondary{font-size:14px;fill:#8FAAC7}
+    .label{font-size:13px;fill:#69BFFF}
+    .meta{font-size:11px;fill:#8FAAC7}
+    .state{font-size:13px;fill:#59F5BE}
+    .value{font-size:27px;font-weight:700}
+    .mobile{font-size:26px}
+    .mobile-label{font-size:23px;fill:#69BFFF}
+    .mobile-meta{font-size:21px;fill:#8FAAC7}
+  </style>
+  <rect width="340" height="920" fill="#080D16"/>
+  <path d="M12 3H328L337 12V908L328 917H12L3 908V12Z" fill="#0D1522" stroke="#A970FF"/>
+    <path d="M8 30V8H30M310 8H332V30M8 890V912H30M310 912H332V890" fill="none" stroke="#A970FF"/>
+    <rect x="12" y="12" width="316" height="896" fill="none" stroke="#29445C" stroke-opacity=".55"/>
+  <style>.mobile,.mobile-label{font-size:28px}.mobile-meta{font-size:27px}</style><text x="20" y="46" class="mobile-label" style="fill:#A970FF">QUEST LOG</text><g transform="translate(22 82) scale(1.3125)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 5h20v23H6z M16 5v23 M9 10h4 M19 10h4 M9 15h4 M19 15h4"/></g><text x="82" y="107" class="mobile" >Narrative</text><text x="82" y="141" class="mobile" >Studio</text><text x="22" y="176" class="mobile-meta" >AI-powered</text><text x="22" y="211" class="mobile-meta" >creative workspace</text><text x="318" y="107" class="mobile-meta" text-anchor="end" style="fill:#59F5BE">MAIN</text><path d="M20 225L320 225" stroke="#29445C"/><g transform="translate(22 234) scale(1.3125)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 12V4l7 6h6l7-6v19l-5 5H11l-5-5z M11 17h1 M21 17h1 M14 23h4"/></g><text x="82" y="259" class="mobile" >Animio</text><text x="22" y="328" class="mobile-meta" >Pet transfer</text><text x="22" y="363" class="mobile-meta" >SPA + Go</text><text x="22" y="293" class="mobile-meta" style="fill:#59F5BE">FEATURED</text><path d="M20 377L320 377" stroke="#29445C"/><g transform="translate(22 386) scale(1.3125)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M4 5h24v17H17l-7 6v-6H4z M9 12h2 M15 12h2 M21 12h2"/></g><text x="82" y="411" class="mobile" >ChatApp</text><text x="22" y="480" class="mobile-meta" >Real-time</text><text x="22" y="515" class="mobile-meta" >messaging</text><text x="22" y="445" class="mobile-meta" style="fill:#59F5BE">FEATURED</text><path d="M20 529L320 529" stroke="#29445C"/><g transform="translate(22 538) scale(1.3125)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M5 11h22v17H5z M10 11V5h12v6 M10 17v3 M22 17v3"/></g><text x="82" y="563" class="mobile" >SkiiShop</text><text x="22" y="632" class="mobile-meta" >Full-stack</text><text x="22" y="667" class="mobile-meta" >e-commerce</text><text x="22" y="597" class="mobile-meta" style="fill:#59F5BE">SIDE</text><path d="M20 681L320 681" stroke="#29445C"/><g transform="translate(22 690) scale(1.3125)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 14h20v15H6z M10 14V8a6 6 0 0 1 12 0v6 M16 19v5"/></g><text x="82" y="715" class="mobile" >YourSafe</text><text x="22" y="784" class="mobile-meta" >Local password</text><text x="22" y="819" class="mobile-meta" >manager / Windows</text><text x="22" y="749" class="mobile-meta" style="fill:#59F5BE">SIDE</text><text x="20" y="888" class="mobile-meta" >LINKS BELOW</text>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "contact": {
+    "github": "https://github.com/Lmnhutw",
+    "email": "mailto:lmnhut0211@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/minhnhut0211/",
+    "portfolio": null,
+    "animio": "https://animio.io.vn/"
+  },
+  "projects": {
+    "narrative": "https://github.com/Lmnhutw/visual-novel-gen",
+    "animio": "https://animio.io.vn/",
+    "chatapp": "https://github.com/Lmnhutw/ChatApp_FE",
+    "skiishop": "https://github.com/Lmnhutw/SkiiShop",
+    "yoursafe": "https://github.com/Lmnhutw/YourSafe"
+  }
+}

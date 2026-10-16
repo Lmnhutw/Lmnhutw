@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/adventurer-log.svg
+          git add assets/adventurer-log.svg assets/adventurer-log-mobile.svg assets/github-contributions.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: update profile metrics"
           git push

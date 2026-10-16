@@ -1,23 +1,22 @@
-<svg width="1000" height="515" viewBox="0 0 1000 515" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Quest Log — Public Projects</title>
-  <desc id="desc">OSAI: AI-focused software project. ChatApp: realtime chat, frontend and backend. SkiiShop: full-stack shop application. Individual repository links are below this image.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="430" viewBox="0 0 490 430" role="img" aria-labelledby="title desc">
+  <title id="title">Quest Log — Five Projects</title><desc id="desc">Narrative Studio: AI-powered creative workspace (MAIN). Animio: Pet-transfer platform / SPA + Go (FEATURED). ChatApp: Real-time messaging platform (FEATURED). SkiiShop: Full-stack e-commerce project (SIDE). YourSafe: Local password manager / Windows (SIDE)</desc>
   <style>
-    .panel{fill:#151e2a;stroke:#364558;stroke-width:1.5}
-    .title{font:600 32px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#cbb5ff}
-    .meta{font:28px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b4c3d6}
-    .name{font:600 44px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f0f5fc}
-    .body{font:42px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#b4c3d6}
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#E6EDF7;font-size:15px}
+    .title{font-size:20px;font-weight:700;fill:#A970FF}
+    .heading{font-size:28px;font-weight:700}
+    .body{font-size:16px}
+    .secondary{font-size:14px;fill:#8FAAC7}
+    .label{font-size:13px;fill:#69BFFF}
+    .meta{font-size:11px;fill:#8FAAC7}
+    .state{font-size:13px;fill:#59F5BE}
+    .value{font-size:27px;font-weight:700}
+    .mobile{font-size:26px}
+    .mobile-label{font-size:23px;fill:#69BFFF}
+    .mobile-meta{font-size:21px;fill:#8FAAC7}
   </style>
-  <rect x="1" y="1" width="998" height="513" rx="10" class="panel"/>
-  <text x="34" y="55" class="title">QUEST LOG</text>
-  <text x="966" y="55" text-anchor="end" class="meta">PUBLIC PROJECTS</text>
-  <path d="M36 123l8-8 8 8-8 8z M36 262l8-8 8 8-8 8z M36 401l8-8 8 8-8 8z" fill="none" stroke="#7ee7b3" stroke-width="2"/>
-  <text x="74" y="139" class="name">OSAI</text>
-  <text x="74" y="198" class="body">AI-focused software project</text>
-  <line x1="74" y1="226" x2="966" y2="226" stroke="#2b394b"/>
-  <text x="74" y="278" class="name">ChatApp</text>
-  <text x="74" y="337" class="body">Realtime chat · frontend &amp; backend</text>
-  <line x1="74" y1="365" x2="966" y2="365" stroke="#2b394b"/>
-  <text x="74" y="417" class="name">SkiiShop</text>
-  <text x="74" y="476" class="body">Full-stack shop application</text>
+  <rect width="490" height="430" fill="#080D16"/>
+  <path d="M12 3H478L487 12V418L478 427H12L3 418V12Z" fill="#0D1522" stroke="#A970FF"/>
+    <path d="M8 30V8H30M460 8H482V30M8 400V422H30M460 422H482V400" fill="none" stroke="#A970FF"/>
+    <rect x="12" y="12" width="466" height="406" fill="none" stroke="#29445C" stroke-opacity=".55"/>
+  <text x="24" y="39" class="title" >QUEST LOG</text><text x="466" y="39" class="meta" text-anchor="end">PUBLIC PROJECTS</text><path d="M24 54L466 54" stroke="#29445C"/><rect x="21" y="65" width="448" height="58" fill="#121D2D" stroke="#29445C"/><path d="M21 65v58" stroke="#59F5BE"/><g transform="translate(29 75) scale(1.09375)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 5h20v23H6z M16 5v23 M9 10h4 M19 10h4 M9 15h4 M19 15h4"/></g><text x="82" y="86" class="body" style="font-size:20px;font-weight:700">Narrative Studio</text><text x="82" y="109" class="body" >AI-powered creative workspace</text><rect x="386" y="72" width="72" height="19" rx="3" fill="#121D2D" stroke="#29445C"/><text x="422" y="85" class="meta" text-anchor="middle" style="fill:#59F5BE">MAIN</text><path d="M26 124L464 124" stroke="#29445C"/><g transform="translate(29 139) scale(1.09375)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 12V4l7 6h6l7-6v19l-5 5H11l-5-5z M11 17h1 M21 17h1 M14 23h4"/></g><text x="82" y="150" class="body" style="font-size:20px;font-weight:700">Animio</text><text x="82" y="173" class="body" >Pet-transfer platform / SPA + Go</text><rect x="386" y="136" width="72" height="19" rx="3" fill="#121D2D" stroke="#29445C"/><text x="422" y="149" class="meta" text-anchor="middle" style="fill:#69BFFF">FEATURED</text><path d="M26 188L464 188" stroke="#29445C"/><g transform="translate(29 203) scale(1.09375)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M4 5h24v17H17l-7 6v-6H4z M9 12h2 M15 12h2 M21 12h2"/></g><text x="82" y="214" class="body" style="font-size:20px;font-weight:700">ChatApp</text><text x="82" y="237" class="body" >Real-time messaging platform</text><rect x="386" y="200" width="72" height="19" rx="3" fill="#121D2D" stroke="#29445C"/><text x="422" y="213" class="meta" text-anchor="middle" style="fill:#69BFFF">FEATURED</text><path d="M26 252L464 252" stroke="#29445C"/><g transform="translate(29 267) scale(1.09375)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M5 11h22v17H5z M10 11V5h12v6 M10 17v3 M22 17v3"/></g><text x="82" y="278" class="body" style="font-size:20px;font-weight:700">SkiiShop</text><text x="82" y="301" class="body" >Full-stack e-commerce project</text><rect x="386" y="264" width="72" height="19" rx="3" fill="#121D2D" stroke="#29445C"/><text x="422" y="277" class="meta" text-anchor="middle" style="fill:#69BFFF">SIDE</text><path d="M26 316L464 316" stroke="#29445C"/><g transform="translate(29 331) scale(1.09375)" fill="none" stroke="#69BFFF" stroke-width="2" stroke-linejoin="miter"><path d="M6 14h20v15H6z M10 14V8a6 6 0 0 1 12 0v6 M16 19v5"/></g><text x="82" y="342" class="body" style="font-size:20px;font-weight:700">YourSafe</text><text x="82" y="365" class="body" >Local password manager / Windows</text><rect x="386" y="328" width="72" height="19" rx="3" fill="#121D2D" stroke="#29445C"/><text x="422" y="341" class="meta" text-anchor="middle" style="fill:#69BFFF">SIDE</text><text x="466" y="407" class="state" text-anchor="end">VIEW ALL REPOSITORIES →</text>
 </svg>

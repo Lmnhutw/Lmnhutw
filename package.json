@@ -2,6 +2,7 @@
   "name": "pixel-quest-profile",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-board.js",
     "generate": "node scripts/generate-profile.js",
     "test": "node --test"
   }

@@ -1,53 +1,11 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Vincent, software developer in Ho Chi Minh City. Building web products and AI systems." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Lmnhutw/visual-novel-gen">
-    <img src="./assets/current-quest.svg" width="100%" alt="Main quest: Narrative Studio. An AI workspace for visual-novel creation, memory and story continuity. Built with Next.js and TypeScript. Open the repository." />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Lmnhutw/visual-novel-gen"><b>Explore Narrative Studio →</b></a>
-</p>
-
-<p align="center">
-  <img src="./assets/quest-log.svg" width="100%" alt="Quest log: OSAI, an AI-focused software project; ChatApp, a realtime chat application; SkiiShop, a full-stack shop application. Project links follow." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Lmnhutw/OSAI"><b>OSAI</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Lmnhutw/ChatApp_FE"><b>ChatApp</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Lmnhutw/SkiiShop"><b>SkiiShop</b></a>
-</p>
-
-<p align="center">
-  <img src="./assets/inventory.svg" width="100%" alt="Technology inventory. Languages: TypeScript, JavaScript, C#. Web: React, Next.js, MUI, Node.js. Backend and data: .NET, PostgreSQL, Supabase, Prisma. Tools and AI: Git, Docker, Nginx, OpenRouter, pgvector." />
-</p>
-
-<p align="center">
-  <img src="./assets/adventurer-log.svg" width="100%" alt="Adventurer log: dated snapshot of public GitHub repository, star and follower counts. Updated by a daily workflow. Open GitHub for current activity." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Lmnhutw?tab=repositories">All repositories</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Lmnhutw?tab=overview">GitHub activity</a>
-</p>
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Quest journal saved. Keep building. Contact and profile links follow." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Lmnhutw"><b>GitHub</b></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:lmnhut0211@gmail.com"><b>Email</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/minhnhut0211/"><b>LinkedIn</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://animio.io.vn/"><b>Animio</b></a>
-</p>
+<p><picture><source media="(max-width: 600px)" srcset="./assets/system-header-mobile.svg"><img src="./assets/system-header.svg" width="100%" alt="System Board / V2.1. Pixel RPG developer profile."></picture></p>
+<p><picture><source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg"><img src="./assets/hero.svg" width="100%" alt="Vincent, software developer in Ho Chi Minh City. Building web products, AI systems and tools that people enjoy using. Currently Building."></picture></p>
+<p align="center"><a href="https://github.com/Lmnhutw">GitHub</a> · <a href="mailto:lmnhut0211@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/minhnhut0211/">LinkedIn</a> · <a href="https://animio.io.vn/">Animio</a></p>
+<p><a href="https://github.com/Lmnhutw/visual-novel-gen"><picture><source media="(max-width: 600px)" srcset="./assets/current-quest-mobile.svg"><img src="./assets/current-quest.svg" width="100%" alt="Current Quest: Narrative Studio. An AI workspace for visual-novel creation, memory and story continuity. Next.js, TypeScript, AI, RAG, Story. Open repository."></picture></a></p>
+<p><picture><source media="(max-width: 600px)" srcset="./assets/quest-log-mobile.svg"><img src="./assets/quest-log.svg" width="49%" alt="Quest Log: Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Repository links follow."></picture> <picture><source media="(max-width: 600px)" srcset="./assets/inventory-mobile.svg"><img src="./assets/inventory.svg" width="49%" alt="Inventory. Languages: C#, TypeScript, JavaScript. Frameworks: .NET, Next.js, React, Angular. Tools: Docker, SQL Server, Git, Jenkins. Other: Redis, PostgreSQL, VS Code."></picture></p>
+<p align="center"><a href="https://github.com/Lmnhutw/visual-novel-gen">Narrative Studio</a> · <a href="https://animio.io.vn/">Animio</a> · <a href="https://github.com/Lmnhutw/ChatApp_FE">ChatApp</a> · <a href="https://github.com/Lmnhutw/SkiiShop">SkiiShop</a> · <a href="https://github.com/Lmnhutw/YourSafe">YourSafe</a></p>
+<p><a href="https://github.com/Lmnhutw?tab=repositories">View all repositories →</a></p>
+<p><a href="https://github.com/Lmnhutw?tab=overview"><picture><source media="(max-width: 600px)" srcset="./assets/adventurer-log-mobile.svg"><img src="./assets/adventurer-log.svg" width="100%" alt="Adventurer Log: real public repository, star, follower and account creation metrics with a dated GitHub contribution heatmap. Open GitHub for current activity."></picture></a></p>
+<p><picture><source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg"><img src="./assets/footer.svg" width="100%" alt="Quest journal saved. Thanks for visiting my GitHub profile. Always open to new ideas and opportunities!"></picture></p>
+<p align="center"><a href="https://github.com/Lmnhutw">GitHub</a> · <a href="mailto:lmnhut0211@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/minhnhut0211/">LinkedIn</a> · <a href="https://animio.io.vn/">Animio</a></p>
+<p align="center"><sub>V2.1.0 · BUILT WITH ♥ AND PIXELS</sub></p>

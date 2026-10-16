@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="46" viewBox="0 0 1000 46" role="img" aria-labelledby="title desc">
+  <title id="title">System Board / V2.1</title><desc id="desc">Terminal navigation. ONLINE is a decorative system-board label, not real-time presence.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#E6EDF7;font-size:15px}
+    .title{font-size:20px;font-weight:700;fill:#69BFFF}
+    .heading{font-size:28px;font-weight:700}
+    .body{font-size:16px}
+    .secondary{font-size:14px;fill:#8FAAC7}
+    .label{font-size:13px;fill:#69BFFF}
+    .meta{font-size:11px;fill:#8FAAC7}
+    .state{font-size:13px;fill:#59F5BE}
+    .value{font-size:27px;font-weight:700}
+    .mobile{font-size:26px}
+    .mobile-label{font-size:23px;fill:#69BFFF}
+    .mobile-meta{font-size:21px;fill:#8FAAC7}
+  </style>
+  <rect width="1000" height="46" fill="#080D16"/>
+  
+  <text x="18" y="28" class="body" >&gt;_ SYSTEM BOARD / V2.1</text><text x="415" y="28" class="label" >GITHUB · EMAIL · LINKEDIN · ANIMIO</text><circle cx="902" cy="23" r="5" fill="#59F5BE"/><text x="920" y="28" class="state" >ONLINE</text><path d="M8 43L992 43" stroke="#69BFFF"/>
+</svg>

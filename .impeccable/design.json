@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T05:15:00.374Z",
+  "title": "Design System: Pixel RPG Profile",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Midnight Canvas",
+        "tonalRamp": [
+          "oklch(15.00% 0.0210 261.35)",
+          "oklch(26.43% 0.0210 261.35)",
+          "oklch(37.86% 0.0210 261.35)",
+          "oklch(49.29% 0.0210 261.35)",
+          "oklch(60.71% 0.0210 261.35)",
+          "oklch(72.14% 0.0210 261.35)",
+          "oklch(83.57% 0.0210 261.35)",
+          "oklch(95.00% 0.0210 261.35)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Deep Navy Panel",
+        "tonalRamp": [
+          "oklch(15.00% 0.0291 259.84)",
+          "oklch(26.43% 0.0291 259.84)",
+          "oklch(37.86% 0.0291 259.84)",
+          "oklch(49.29% 0.0291 259.84)",
+          "oklch(60.71% 0.0291 259.84)",
+          "oklch(72.14% 0.0291 259.84)",
+          "oklch(83.57% 0.0291 259.84)",
+          "oklch(95.00% 0.0291 259.84)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Raised Navy Slot",
+        "tonalRamp": [
+          "oklch(15.00% 0.0351 257.67)",
+          "oklch(26.43% 0.0351 257.67)",
+          "oklch(37.86% 0.0351 257.67)",
+          "oklch(49.29% 0.0351 257.67)",
+          "oklch(60.71% 0.0351 257.67)",
+          "oklch(72.14% 0.0351 257.67)",
+          "oklch(83.57% 0.0351 257.67)",
+          "oklch(95.00% 0.0351 257.67)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Moonlit Foreground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0154 257.20)",
+          "oklch(26.43% 0.0154 257.20)",
+          "oklch(37.86% 0.0154 257.20)",
+          "oklch(49.29% 0.0154 257.20)",
+          "oklch(60.71% 0.0154 257.20)",
+          "oklch(72.14% 0.0154 257.20)",
+          "oklch(83.57% 0.0154 257.20)",
+          "oklch(95.00% 0.0154 257.20)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Steel Blue Copy",
+        "tonalRamp": [
+          "oklch(15.00% 0.0518 250.39)",
+          "oklch(26.43% 0.0518 250.39)",
+          "oklch(37.86% 0.0518 250.39)",
+          "oklch(49.29% 0.0518 250.39)",
+          "oklch(60.71% 0.0518 250.39)",
+          "oklch(72.14% 0.0518 250.39)",
+          "oklch(83.57% 0.0518 250.39)",
+          "oklch(95.00% 0.0518 250.39)"
+        ]
+      },
+      "mint": {
+        "role": "primary",
+        "displayName": "Terminal Mint",
+        "tonalRamp": [
+          "oklch(15.00% 0.1531 165.91)",
+          "oklch(26.43% 0.1531 165.91)",
+          "oklch(37.86% 0.1531 165.91)",
+          "oklch(49.29% 0.1531 165.91)",
+          "oklch(60.71% 0.1531 165.91)",
+          "oklch(72.14% 0.1531 165.91)",
+          "oklch(83.57% 0.1531 165.91)",
+          "oklch(95.00% 0.1531 165.91)"
+        ]
+      },
+      "purple": {
+        "role": "secondary",
+        "displayName": "Quest Purple",
+        "tonalRamp": [
+          "oklch(15.00% 0.2053 299.17)",
+          "oklch(26.43% 0.2053 299.17)",
+          "oklch(37.86% 0.2053 299.17)",
+          "oklch(49.29% 0.2053 299.17)",
+          "oklch(60.71% 0.2053 299.17)",
+          "oklch(72.14% 0.2053 299.17)",
+          "oklch(83.57% 0.2053 299.17)",
+          "oklch(95.00% 0.2053 299.17)"
+        ]
+      },
+      "cyan": {
+        "role": "tertiary",
+        "displayName": "Inventory Cyan",
+        "tonalRamp": [
+          "oklch(15.00% 0.1242 242.81)",
+          "oklch(26.43% 0.1242 242.81)",
+          "oklch(37.86% 0.1242 242.81)",
+          "oklch(49.29% 0.1242 242.81)",
+          "oklch(60.71% 0.1242 242.81)",
+          "oklch(72.14% 0.1242 242.81)",
+          "oklch(83.57% 0.1242 242.81)",
+          "oklch(95.00% 0.1242 242.81)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Slate Frame",
+        "tonalRamp": [
+          "oklch(15.00% 0.0529 246.57)",
+          "oklch(26.43% 0.0529 246.57)",
+          "oklch(37.86% 0.0529 246.57)",
+          "oklch(49.29% 0.0529 246.57)",
+          "oklch(60.71% 0.0529 246.57)",
+          "oklch(72.14% 0.0529 246.57)",
+          "oklch(83.57% 0.0529 246.57)",
+          "oklch(95.00% 0.0529 246.57)"
+        ]
+      },
+      "contribution-low": {
+        "role": "primary",
+        "displayName": "Contribution Low",
+        "tonalRamp": [
+          "oklch(15.00% 0.0637 164.93)",
+          "oklch(26.43% 0.0637 164.93)",
+          "oklch(37.86% 0.0637 164.93)",
+          "oklch(49.29% 0.0637 164.93)",
+          "oklch(60.71% 0.0637 164.93)",
+          "oklch(72.14% 0.0637 164.93)",
+          "oklch(83.57% 0.0637 164.93)",
+          "oklch(95.00% 0.0637 164.93)"
+        ]
+      },
+      "contribution-medium": {
+        "role": "primary",
+        "displayName": "Contribution Medium",
+        "tonalRamp": [
+          "oklch(15.00% 0.0961 162.96)",
+          "oklch(26.43% 0.0961 162.96)",
+          "oklch(37.86% 0.0961 162.96)",
+          "oklch(49.29% 0.0961 162.96)",
+          "oklch(60.71% 0.0961 162.96)",
+          "oklch(72.14% 0.0961 162.96)",
+          "oklch(83.57% 0.0961 162.96)",
+          "oklch(95.00% 0.0961 162.96)"
+        ]
+      },
+      "contribution-high": {
+        "role": "primary",
+        "displayName": "Contribution High",
+        "tonalRamp": [
+          "oklch(15.00% 0.1316 161.17)",
+          "oklch(26.43% 0.1316 161.17)",
+          "oklch(37.86% 0.1316 161.17)",
+          "oklch(49.29% 0.1316 161.17)",
+          "oklch(60.71% 0.1316 161.17)",
+          "oklch(72.14% 0.1316 161.17)",
+          "oklch(83.57% 0.1316 161.17)",
+          "oklch(95.00% 0.1316 161.17)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Shared SVG text role; intrinsic SVG units scale with the image."
+      },
+      "heading": {
+        "displayName": "Project heading",
+        "purpose": "Shared SVG text role; intrinsic SVG units scale with the image."
+      },
+      "body": {
+        "displayName": "Readable description",
+        "purpose": "Shared SVG text role; intrinsic SVG units scale with the image."
+      },
+      "meta": {
+        "displayName": "Metadata",
+        "purpose": "Shared SVG text role; intrinsic SVG units scale with the image."
+      },
+      "value": {
+        "displayName": "Metric value",
+        "purpose": "Shared SVG text role; intrinsic SVG units scale with the image."
+      },
+      "mobile-pair-copy": {
+        "displayName": "Narrow mobile panel copy",
+        "purpose": "Override used in both equal-width mobile panels."
+      },
+      "mobile-pair-meta": {
+        "displayName": "Narrow mobile panel metadata",
+        "purpose": "Override used in both equal-width mobile panels."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "mobile-svg-source",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Terminal Header",
+      "kind": "nav",
+      "refersTo": "panel",
+      "description": "Static terminal text; actual navigation exists as native README links. Source-derived SVG sample, not an interactive menu. Previews add only sizing CSS; GitHub owns native-link focus states.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"64\" viewBox=\"0 0 600 64\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">System header</title><desc id=\"desc\">Static terminal header sample.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#69BFFF}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"600\" height=\"64\" fill=\"#080D16\"/>\n  \n  <text x=\"18\" y=\"40\" class=\"mobile-label\" >&gt;_ SYSTEM BOARD / V2.1</text><text x=\"582\" y=\"40\" class=\"mobile-label\" text-anchor=\"end\">ONLINE</text><path d=\"M18 58L582 58\" stroke=\"#69BFFF\"/>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Quest Frame",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Shared clipped-corner frame, purple section title and separator; cropped composition sample.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"100\" viewBox=\"0 0 490 100\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Quest frame</title><desc id=\"desc\">Shared quest panel frame sample.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#A970FF}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"490\" height=\"100\" fill=\"#080D16\"/>\n  <path d=\"M12 3H478L487 12V88L478 97H12L3 88V12Z\" fill=\"#0D1522\" stroke=\"#A970FF\"/>\n    <path d=\"M8 30V8H30M460 8H482V30M8 70V92H30M460 92H482V70\" fill=\"none\" stroke=\"#A970FF\"/>\n    <rect x=\"12\" y=\"12\" width=\"466\" height=\"76\" fill=\"none\" stroke=\"#29445C\" stroke-opacity=\".55\"/>\n  <text x=\"24\" y=\"39\" class=\"title\" >QUEST LOG</text><path d=\"M24 54L466 54\" stroke=\"#29445C\"/>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Inventory Slot",
+      "kind": "custom",
+      "refersTo": "inventory-slot",
+      "description": "Static technology slot with the actual official TypeScript SVG embedded inline for the isolated preview.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"164\" height=\"70\" viewBox=\"0 0 164 70\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Inventory slot</title><desc id=\"desc\">TypeScript technology slot.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#29445C}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"164\" height=\"70\" fill=\"#080D16\"/>\n  \n  <rect x=\"12\" y=\"12\" width=\"140\" height=\"46\" rx=\"3\" fill=\"#121D2D\" stroke=\"#29445C\"/><svg x=\"20\" y=\"20\" width=\"19\" height=\"19\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\"><path fill=\"#fff\" d=\"M22.67 47h99.67v73.67H22.67z\"/><path data-name=\"original\" fill=\"#007acc\" d=\"M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1 23 23 0 01-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73L82 101l3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 01.12-5.17C29.08 59 39 59 51 59h21.83z\"/></svg><text x=\"45\" y=\"37\" class=\"body\" >TypeScript</text>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Technology Tag",
+      "kind": "chip",
+      "refersTo": "quest-tag",
+      "description": "Static inset NEXT.JS tag copied from the Current Quest slot construction.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"110\" height=\"54\" viewBox=\"0 0 110 54\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Technology tag</title><desc id=\"desc\">Static quest technology tag.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#29445C}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"110\" height=\"54\" fill=\"#080D16\"/>\n  \n  <rect x=\"12\" y=\"12\" width=\"78\" height=\"30\" rx=\"3\" fill=\"#121D2D\" stroke=\"#29445C\"/><text x=\"51\" y=\"32\" class=\"meta\" text-anchor=\"middle\" style=\"fill:#E6EDF7\">NEXT.JS</text>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Quest Row",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Source-derived project row with original icon geometry, priority marker and divider.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"90\" viewBox=\"0 0 490 90\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Project row</title><desc id=\"desc\">Narrative Studio quest row.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#A970FF}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"490\" height=\"90\" fill=\"#080D16\"/>\n  \n  <rect x=\"21\" y=\"12\" width=\"448\" height=\"58\" fill=\"#121D2D\" stroke=\"#29445C\"/><path d=\"M21 12v58\" stroke=\"#59F5BE\"/><g transform=\"translate(29 22) scale(1.09375)\" fill=\"none\" stroke=\"#69BFFF\" stroke-width=\"2\" stroke-linejoin=\"miter\"><path d=\"M6 5h20v23H6z M16 5v23 M9 10h4 M19 10h4 M9 15h4 M19 15h4\"/></g><text x=\"82\" y=\"33\" class=\"body\" style=\"font-size:20px;font-weight:700\">Narrative Studio</text><text x=\"82\" y=\"56\" class=\"body\" >AI-powered creative workspace</text><rect x=\"386\" y=\"19\" width=\"72\" height=\"19\" rx=\"3\" fill=\"#121D2D\" stroke=\"#29445C\"/><text x=\"422\" y=\"32\" class=\"meta\" text-anchor=\"middle\" style=\"fill:#59F5BE\">MAIN</text>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Repository Action Visual",
+      "kind": "custom",
+      "refersTo": "repository-action-visual",
+      "description": "Static action treatment. The production README wraps the featured SVG in a real anchor; the SVG itself has no interaction states.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"186\" height=\"56\" viewBox=\"0 0 186 56\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Repository action</title><desc id=\"desc\">Mint repository-action label sample.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#29445C}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"186\" height=\"56\" fill=\"#080D16\"/>\n  \n  <rect x=\"12\" y=\"12\" width=\"162\" height=\"32\" fill=\"#080D16\" stroke=\"#59F5BE\"/><text x=\"93\" y=\"33\" class=\"state\" text-anchor=\"middle\">VIEW REPOSITORY →</text>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    },
+    {
+      "name": "Metric Tile",
+      "kind": "card",
+      "refersTo": "metric-tile",
+      "description": "Source-derived tile with an illustrative value. Production values are generated from real GitHub data.",
+      "html": "<svg class=\"ds-preview\" xmlns=\"http://www.w3.org/2000/svg\" width=\"134\" height=\"112\" viewBox=\"0 0 134 112\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">Metric tile</title><desc id=\"desc\">Metric tile sample; value is illustrative.</desc>\n  <style>\n    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,\"Liberation Mono\",monospace;fill:#E6EDF7;font-size:15px}\n    .title{font-size:20px;font-weight:700;fill:#59F5BE}\n    .heading{font-size:28px;font-weight:700}\n    .body{font-size:16px}\n    .secondary{font-size:14px;fill:#8FAAC7}\n    .label{font-size:13px;fill:#69BFFF}\n    .meta{font-size:11px;fill:#8FAAC7}\n    .state{font-size:13px;fill:#59F5BE}\n    .value{font-size:27px;font-weight:700}\n    .mobile{font-size:26px}\n    .mobile-label{font-size:23px;fill:#69BFFF}\n    .mobile-meta{font-size:21px;fill:#8FAAC7}\n  </style>\n  <rect width=\"134\" height=\"112\" fill=\"#080D16\"/>\n  \n  <rect x=\"12\" y=\"12\" width=\"110\" height=\"88\" rx=\"3\" fill=\"#121D2D\" stroke=\"#29445C\"/><text x=\"28\" y=\"46\" class=\"value\" >2020</text><text x=\"28\" y=\"77\" class=\"meta\" >JOINED GITHUB</text>\n</svg>\n",
+      "css": ".ds-preview { display: block; max-width: 100%; height: auto; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Retro Pixel Art × Cyberpunk Terminal × RPG Quest Interface",
+    "overview": "Retro Pixel Art × Cyberpunk Terminal × RPG Quest Interface. A personal RPG character screen combines deep navy terminal panels with detailed, cozy pixel scenes. Mint marks actions and state, purple identifies quests, and cyan organizes inventory and system information.\n\nThe shipped surface is a GitHub profile README composed of self-contained SVG images and native Markdown/HTML links. Its density, crisp geometry and locally rendered monospace copy support the room scenes and moonlit cat ending. The Hero embeds the user-supplied vincent_character.gif unchanged; there is no website runtime or scripted interaction.",
+    "keyCharacteristics": [
+      "Compact terminal density with clear project and player-name emphasis.",
+      "Original generated pixel rooms and a moonlit forest with a cat.",
+      "Thin clipped-corner frames, inset slots and restrained semantic accents.",
+      "Separately composed mobile images with the project/inventory pair preserved."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Accent Rule",
+        "body": "Use mint for actions and states, purple for quests, and cyan for inventory and system information.",
+        "section": "colors"
+      },
+      {
+        "name": "The Local Lettering Rule",
+        "body": "Keep the player name as original vector bitmap glyphs and all readable SVG copy in the local monospace stack; do not fetch fonts.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tonal Frame Rule",
+        "body": "Separate panels through dark tonal layers and thin borders; scene lighting belongs to the artwork, not a reusable panel shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the compact three-column desktop Hero and two equal project/inventory pictures.",
+      "Do compose mobile SVG variants at the established source breakpoint instead of shrinking every desktop text block.",
+      "Do embed artwork and logos inside SVGs, preserve PNG provenance, and keep small original project icons as geometry.",
+      "Do provide meaningful image alt text, SVG titles/descriptions and actual README links for destinations.",
+      "Do retain real activity values, dated snapshots and explicit cached or unavailable states."
+    ],
+    "donts": [
+      "Don't replace the chosen pixel RPG world with a generic SaaS dashboard or oversized single-column interface.",
+      "Don't introduce heavy glassmorphism, excessive gradients or oversized interface shadows.",
+      "Don't rely on JavaScript, custom README CSS, external fonts or clickable targets inside an SVG image.",
+      "Don't invent progress percentages, contribution activity, missing URLs or interaction states."
+    ]
+  }
+}
