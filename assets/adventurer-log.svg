@@ -1,6 +1,6 @@
 <svg width="1000" height="430" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Adventurer Log — Public GitHub Snapshot</title>
-  <desc id="desc">20 public repositories, 3 total repository stars and 3 followers. Latest public repository push: 2026-10-15 UTC. Snapshot updated 2026-10-16 UTC.</desc>
+  <desc id="desc">20 public repositories, 3 total repository stars and 2 followers. Latest public repository push: 2026-10-16 UTC. Snapshot updated 2026-10-16 UTC.</desc>
   <style>
     .panel{fill:#151e2a;stroke:#364558;stroke-width:1.5}
     .title{font:600 32px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#7ee7b3}
@@ -16,9 +16,9 @@
   <text x="34" y="239" class="label">PUBLIC REPOS</text>
   <text x="368" y="173" class="value">3</text>
   <text x="368" y="239" class="label">TOTAL STARS</text>
-  <text x="700" y="173" class="value">3</text>
+  <text x="700" y="173" class="value">2</text>
   <text x="700" y="239" class="label">FOLLOWERS</text>
   <line x1="34" y1="274" x2="966" y2="274" stroke="#364558" stroke-width="1.5"/>
-  <text x="34" y="332" class="body">Latest public push / 2026-10-15 UTC</text>
+  <text x="34" y="332" class="body">Latest public push / 2026-10-16 UTC</text>
   <text x="34" y="392" class="meta">Snapshot / 2026-10-16 UTC</text>
 </svg>
