@@ -15,6 +15,7 @@ Image URLs point directly to raw.githubusercontent.com and include a content has
 
 ## Artwork and icons
 
+- `assets/banner.png`: user-supplied welcome banner, displayed unchanged above the System Board header.
 - `assets/vincent_character.gif`: user-supplied animated Player Profile avatar, embedded unchanged in both Hero SVGs with the GIF MIME type and fitted without cropping.
 - `assets/art/developer-room.png`: previous generated Hero artwork, retained as an unused source; prompt in `docs/art-prompts/developer-room.txt`.
 - `assets/art/narrative-workspace.png`: generated with built-in ImageGen; prompt in `docs/art-prompts/narrative-workspace.txt`.
@@ -38,7 +39,7 @@ All dates shown are UTC. ONLINE is a decorative terminal-board label, not real-t
 
 Each SVG embeds its raster/icon content; no external resource has to load inside an SVG. Pixel-name geometry avoids external fonts; all other text uses local monospace fallbacks.
 
-The README uses standard `picture/source` elements, which GitHub's Markdown renderer preserves. At viewport widths up to 600px, the browser chooses separately composed mobile SVGs. The two adjacent 49%-width project/inventory pictures remain two columns with equal image heights. Their mobile copy wraps instead of being reduced to tiny desktop text.
+The README uses standard `picture/source` elements, which GitHub's Markdown renderer preserves. At viewport widths up to 600px, the browser chooses separately composed mobile SVGs. The two adjacent 48%-width project/inventory pictures are centered with the user's nonbreaking-space gap and equal image heights. Their mobile copy wraps instead of being reduced to tiny desktop text. Project links and the footer preserve the user's supplied spacing and copy through rebuilds.
 
 All actionable destinations also exist as native README anchors. SVG artwork alone cannot provide multiple clickable targets.
 

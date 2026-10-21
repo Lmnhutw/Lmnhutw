@@ -15,12 +15,13 @@ test('all desktop and mobile README images use their current content version', (
   const root = path.join(__dirname, '..');
   const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
   const images = [...readme.matchAll(/(?:src|srcset)="([^"]+)"/g)];
-  assert.equal(images.length, 14);
+  assert.equal(images.length, 15);
   for (const [, source] of images) {
     const url = new URL(source);
     assert.equal(url.origin, 'https://raw.githubusercontent.com');
-    assert.match(url.pathname, /^\/Lmnhutw\/Lmnhutw\/main\/assets\/[a-z-]+\.svg$/);
-    const content = fs.readFileSync(path.join(root, 'assets', path.basename(url.pathname)), 'utf8').replace(/\r\n/g, '\n');
+    assert.match(url.pathname, /^\/Lmnhutw\/Lmnhutw\/main\/assets\/[a-z-]+\.(svg|png)$/);
+    const bytes = fs.readFileSync(path.join(root, 'assets', path.basename(url.pathname)));
+    const content = url.pathname.endsWith('.svg') ? bytes.toString('utf8').replace(/\r\n/g, '\n') : bytes;
     const version = createHash('sha256').update(content).digest('hex').slice(0, 16);
     assert.equal(url.searchParams.get('v'), version, source);
   }

@@ -49,7 +49,6 @@ function contactRows(x, start, step, mobile = false) {
 function build() {
   save('system-header', svg('System Board / V2.1', 'Terminal navigation. ONLINE is a decorative system-board label, not real-time presence.', 1000, 46,
     t(18, 28, '>_ SYSTEM BOARD / V2.1', 'body') +
-    t(415, 28, 'GITHUB · EMAIL · LINKEDIN · ANIMIO', 'label') +
     '<circle cx="902" cy="23" r="5" fill="#59F5BE"/>' + t(920, 28, 'ONLINE', 'state') +
     line(8, 43, 992, 43, c.cyan), c.cyan, false));
   save('system-header-mobile', svg('System Board / V2.1', 'Pixel RPG system board.', 600, 64,
@@ -190,24 +189,33 @@ function build() {
   const anchor = (url, label) => url ? `<a href="${escape(url)}">${escape(label)}</a>` : escape(label);
   const contactLinks = ['github', 'email', 'linkedin', 'portfolio', 'animio']
     .filter(key => links.contact[key]).map(key => anchor(links.contact[key], { github: 'GitHub', email: 'Email', linkedin: 'LinkedIn', portfolio: 'Portfolio', animio: 'Animio' }[key])).join(' · ');
-  const assetUrl = name => {
-    const content = fs.readFileSync(path.join(root, 'assets', name + '.svg'), 'utf8').replace(/\r\n/g, '\n');
+  const footerLinks = ['github', 'email', 'linkedin']
+    .filter(key => links.contact[key]).map(key => anchor(links.contact[key], { github: 'GitHub', email: 'Email', linkedin: 'LinkedIn' }[key])).join(' · ');
+  const assetUrl = file => {
+    const bytes = fs.readFileSync(path.join(root, 'assets', file));
+    const content = file.endsWith('.svg') ? bytes.toString('utf8').replace(/\r\n/g, '\n') : bytes;
     const version = createHash('sha256').update(content).digest('hex').slice(0, 16);
-    return `https://raw.githubusercontent.com/Lmnhutw/Lmnhutw/main/assets/${name}.svg?v=${version}`;
+    return `https://raw.githubusercontent.com/Lmnhutw/Lmnhutw/main/assets/${file}?v=${version}`;
   };
-  const picture = (name, alt, width = '100%') => `<picture><source media="(max-width: 600px)" srcset="${assetUrl(name + '-mobile')}"><img src="${assetUrl(name)}" width="${width}" alt="${escape(alt)}"></picture>`;
+  const picture = (name, alt, width = '100%') => `<picture><source media="(max-width: 600px)" srcset="${assetUrl(name + '-mobile.svg')}"><img src="${assetUrl(name + '.svg')}" width="${width}" alt="${escape(alt)}"></picture>`;
   const projectLinks = projects.map(p => anchor(links.projects[p.key], p.name)).join(' · ');
-  const readme = `<p>${picture('system-header', 'System Board / V2.1. Pixel RPG developer profile.')}</p>
+  const readme = `<p><img src="${assetUrl('banner.png')}" width="100%" alt="Welcome to my GitHub. Vincent at his desk with a cat in a pixel-art nighttime city scene."></p>
+<p>${picture('system-header', 'System Board / V2.1. Pixel RPG developer profile.')}</p>
 <p>${picture('hero', 'Vincent, software developer in Ho Chi Minh City. Building web products, AI systems and tools that people enjoy using. Currently Building.')}</p>
 <p align="center">${contactLinks}</p>
 <p>${links.projects.narrative ? '<a href="' + escape(links.projects.narrative) + '">' : ''}${picture('current-quest', 'Current Quest: Narrative Studio. An AI workspace for visual-novel creation, memory and story continuity. Next.js, TypeScript, AI, RAG, Story. Open repository.')}${links.projects.narrative ? '</a>' : ''}</p>
-<p>${picture('quest-log', 'Quest Log: Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Repository links follow.', '49%')} ${picture('inventory', 'Inventory. Languages: C#, TypeScript, JavaScript. Frameworks: .NET, Next.js, React, Angular. Tools: Docker, SQL Server, Git, Jenkins. Other: Redis, PostgreSQL, VS Code.', '49%')}</p>
-<p align="center">${projectLinks}</p>
-<p><a href="${escape(links.contact.github + '?tab=repositories')}">View all repositories →</a></p>
+<p align="center">${picture('quest-log', 'Quest Log: Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Repository links follow.', '48%')}
+    &nbsp;&nbsp;
+  ${picture('inventory', 'Inventory. Languages: C#, TypeScript, JavaScript. Frameworks: .NET, Next.js, React, Angular. Tools: Docker, SQL Server, Git, Jenkins. Other: Redis, PostgreSQL, VS Code.', '48%')}</p>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ${projectLinks}
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="${escape(links.contact.github + '?tab=repositories')}">View all repositories →</a>
+</p>
 <p><a href="${escape(links.contact.github + '?tab=overview')}">${picture('adventurer-log', 'Adventurer Log: real public repository, star, follower and account creation metrics with a dated GitHub contribution heatmap. Open GitHub for current activity.')}</a></p>
 <p>${picture('footer', 'Quest journal saved. Thanks for visiting my GitHub profile. Always open to new ideas and opportunities!')}</p>
-<p align="center">${contactLinks}</p>
-<p align="center"><sub>V2.1.0 · BUILT WITH ♥ AND PIXELS</sub></p>
+<p align="center">${footerLinks}</p>
+<p align="center"><sub>Thank you for coming here ♥</sub></p>
 `;
   fs.writeFileSync(path.join(root, 'README.md'), readme);
   console.log('Built 12 static SVGs and README.md from profile-links.json.');
