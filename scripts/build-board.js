@@ -47,11 +47,11 @@ function contactRows(x, start, step, mobile = false) {
 }
 
 function build() {
-  save('system-header', svg('System Board / V2.1', 'Terminal navigation. ONLINE is a decorative system-board label, not real-time presence.', 1000, 46,
+  save('system-header-plain', svg('System Board / V2.1', 'Pixel RPG system board. ONLINE is a decorative label, not real-time presence.', 1000, 46,
     t(18, 28, '>_ SYSTEM BOARD / V2.1', 'body') +
     '<circle cx="902" cy="23" r="5" fill="#59F5BE"/>' + t(920, 28, 'ONLINE', 'state') +
     line(8, 43, 992, 43, c.cyan), c.cyan, false));
-  save('system-header-mobile', svg('System Board / V2.1', 'Pixel RPG system board.', 600, 64,
+  save('system-header-plain-mobile', svg('System Board / V2.1', 'Pixel RPG system board.', 600, 64,
     t(18, 40, '>_ SYSTEM BOARD / V2.1', 'mobile-label') +
     t(582, 40, 'ONLINE', 'mobile-label', 'text-anchor="end"') + line(18, 58, 582, 58, c.cyan), c.cyan, false));
 
@@ -200,7 +200,7 @@ function build() {
   const picture = (name, alt, width = '100%') => `<picture><source media="(max-width: 600px)" srcset="${assetUrl(name + '-mobile.svg')}"><img src="${assetUrl(name + '.svg')}" width="${width}" alt="${escape(alt)}"></picture>`;
   const projectLinks = projects.map(p => anchor(links.projects[p.key], p.name)).join(' · ');
   const readme = `<p><img src="${assetUrl('banner.png')}" width="100%" alt="Welcome to my GitHub. Vincent at his desk with a cat in a pixel-art nighttime city scene."></p>
-<p>${picture('system-header', 'System Board / V2.1. Pixel RPG developer profile.')}</p>
+<p>${picture('system-header-plain', 'System Board / V2.1. Pixel RPG developer profile.')}</p>
 <p>${picture('hero', 'Vincent, software developer in Ho Chi Minh City. Building web products, AI systems and tools that people enjoy using. Currently Building.')}</p>
 <p align="center">${contactLinks}</p>
 <p>${links.projects.narrative ? '<a href="' + escape(links.projects.narrative) + '">' : ''}${picture('current-quest', 'Current Quest: Narrative Studio. An AI workspace for visual-novel creation, memory and story continuity. Next.js, TypeScript, AI, RAG, Story. Open repository.')}${links.projects.narrative ? '</a>' : ''}</p>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="46" viewBox="0 0 1000 46" role="img" aria-labelledby="title desc">
-  <title id="title">System Board / V2.1</title><desc id="desc">Terminal navigation. ONLINE is a decorative system-board label, not real-time presence.</desc>
+  <title id="title">System Board / V2.1</title><desc id="desc">Pixel RPG system board. ONLINE is a decorative label, not real-time presence.</desc>
   <style>
     text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#E6EDF7;font-size:15px}
     .title{font-size:20px;font-weight:700;fill:#69BFFF}
