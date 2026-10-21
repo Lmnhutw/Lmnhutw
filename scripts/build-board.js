@@ -204,9 +204,7 @@ function build() {
 <p>${picture('hero', 'Vincent, software developer in Ho Chi Minh City. Building web products, AI systems and tools that people enjoy using. Currently Building.')}</p>
 <p align="center">${contactLinks}</p>
 <p>${links.projects.narrative ? '<a href="' + escape(links.projects.narrative) + '">' : ''}${picture('current-quest', 'Current Quest: Narrative Studio. An AI workspace for visual-novel creation, memory and story continuity. Next.js, TypeScript, AI, RAG, Story. Open repository.')}${links.projects.narrative ? '</a>' : ''}</p>
-<p align="center">${picture('quest-log', 'Quest Log: Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Repository links follow.', '48%')}
-    &nbsp;&nbsp;
-  ${picture('inventory', 'Inventory. Languages: C#, TypeScript, JavaScript. Frameworks: .NET, Next.js, React, Angular. Tools: Docker, SQL Server, Git, Jenkins. Other: Redis, PostgreSQL, VS Code.', '48%')}</p>
+<p align="center">${picture('quest-log', 'Quest Log: Narrative Studio, Animio, ChatApp, SkiiShop and YourSafe. Repository links follow.', '48%')}&nbsp;&nbsp;${picture('inventory', 'Inventory. Languages: C#, TypeScript, JavaScript. Frameworks: .NET, Next.js, React, Angular. Tools: Docker, SQL Server, Git, Jenkins. Other: Redis, PostgreSQL, VS Code.', '48%')}</p>
 <p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ${projectLinks}
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
